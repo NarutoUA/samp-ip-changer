@@ -1,0 +1,6 @@
+[submodule "samp-ip-changer/urmem"]
+	path = samp-ip-changer/urmem
+	url = https://github.com/urShadow/urmem.git
+[submodule "samp-ip-changer/simpleini"]
+	path = samp-ip-changer/simpleini
+	url = https://github.com/brofield/simpleini

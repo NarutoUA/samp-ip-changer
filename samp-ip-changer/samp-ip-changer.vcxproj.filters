@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="urmem">
+      <UniqueIdentifier>{224cbf19-ec52-4784-a4bb-f092592c976a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="simpleini">
+      <UniqueIdentifier>{03abfee2-69a4-44bd-8e29-30081e2368bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{28ffe133-98d3-4672-8099-cb7000ed9bba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="urmem\urmem.hpp">
+      <Filter>urmem</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="simpleini\SimpleIni.h">
+      <Filter>simpleini</Filter>
+    </ClInclude>
+    <ClInclude Include="CIpChanger.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="CIpChanger.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="samp-ip-changer.ini">
+      <Filter>config</Filter>
+    </None>
+  </ItemGroup>
+</Project>
